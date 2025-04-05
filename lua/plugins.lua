@@ -43,6 +43,11 @@ require("lazy").setup({
     event = "InsertEnter",
     opts = {} -- this is equalent to setup({}) function
   },
+  {
+    'github/copilot.vim',
+    version = "*",
+    cmd = 'Copilot'
+  }
 })
 
 vim.opt.termguicolors = true
