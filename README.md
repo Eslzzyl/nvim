@@ -2,4 +2,6 @@
 
 自用
 
-安装最新nvim后，在`~/.config/`中clone本仓库。
+*nix：安装最新nvim后，在`~/.config/`中clone本仓库。
+
+Windows：安装最新nvim后，在`~/AppData/Local/`中clone本仓库。
