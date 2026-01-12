@@ -87,13 +87,13 @@ vim.o.splitright = true
 vim.g.completeopt = "menu,menuone,noselect,noinsert"
 
 -- 样式
--- vim.o.background = "dark"
--- vim.o.termguicolors = true
--- vim.opt.termguicolors = true
+-- vim.o.background = "light"
+vim.o.termguicolors = true
+vim.opt.termguicolors = true
 
 -- 不可见字符的显示，这里只把空格显示为一个点
--- vim.o.list = true
--- vim.o.listchars = "space:·"
+vim.o.list = true
+vim.o.listchars = "space:·"
 
 -- 补全增强
 vim.o.wildmenu = true
